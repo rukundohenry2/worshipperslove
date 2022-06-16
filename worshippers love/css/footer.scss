@@ -1,0 +1,124 @@
+
+// colors
+$primarycolor:#0958BF;
+$backgroundcolor: #2C2D2E;
+$backgroundcolorop: #2d2e2ff1;
+$blackbackground:#000000de;
+$blackbackgroundfooter:#0000009c;
+$golden:#FFC40C;
+
+// font family
+$fontmenu:'calibri light';
+$fontweb:'Century Gothic';
+$fontcursive:'Bradley Hand ITC';
+$fontheading:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+
+// font size
+$headingfontsize:35px;
+$heading1fontsize:33px;
+$heading2fontsize:29px;
+$textfontsize:20px;
+$text1fontsize:23px;
+
+// font weight
+$boldheading:bolder;
+body{
+    .footer{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        display: flex;
+        justify-content: space-around;
+        
+        padding: 20px 0px 20px 0px;
+        .logofooter{
+            .logo2{
+                width: 80px;
+            }
+        }
+        .info{
+            
+            color: $golden;
+            font-family: $fontcursive;
+            font-size: $textfontsize;
+    
+            .motto{
+                margin-bottom: 30px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+            .contactinfo{
+                color: white;
+                border-radius: 10px;
+                box-shadow:0 0 30px 5px $backgroundcolorop;
+                padding: 15px;
+                font-family: $fontweb;
+                line-height: 20px;
+                .footericon{
+                    width: 20px;
+                }
+            }
+        }
+        .userform{
+            
+            .contacthead{
+                font-size: $heading2fontsize;
+                font-family:$fontheading;
+                color: white;
+                margin-bottom: 10px;
+            }
+            .innerform{
+                padding:15px;
+                box-shadow:0 0 30px 5px $backgroundcolorop;
+                background-color:$blackbackgroundfooter;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    .formtextfield{
+                        padding:10px;
+                        background-color: transparent;
+                        border: white 2px solid;
+                        margin:0px 0px 10px 0px ;
+                        color: white;
+                        
+                    }
+                    #formbutton{
+                        width: auto;
+                        color: #FFC40C;
+                        border: 2px solid #0958BF;
+                        padding: 5px 20px 5px 20px;
+                        border-radius: 30px;
+                        align-self:flex-start;
+                        font-size: $textfontsize;
+                    }
+                }
+            }
+        }
+        .quick{
+            
+            .quicklinkheading{
+                font-size: $heading2fontsize;
+                font-family:$fontheading;
+                color: white;
+                margin-bottom: 10px;
+                
+            }
+            .quicklinks{
+                box-shadow:0 0 30px 5px $backgroundcolorop;
+                padding: 20px;
+                background-color: $blackbackgroundfooter;
+                li{
+                    list-style: none;
+                    .quicklink{
+                        text-decoration: none;
+                        font-size: $textfontsize;
+                        font-family: $fontcursive;
+                        color: $golden;
+                        margin-bottom: 20px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

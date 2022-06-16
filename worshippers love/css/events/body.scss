@@ -1,0 +1,81 @@
+// colors
+$primarycolor:#0958BF;
+$backgroundcolor: #2C2D2E;
+$backgroundcolorop: #2d2e2ff1;
+$blackbackground:#000000de;
+$blackbackgroundfooter:#0000009c;
+$golden:#FFC40C;
+
+// font family
+$fontmenu:'calibri light';
+$fontweb:'Century Gothic';
+$fontcursive:'Bradley Hand ITC';
+$fontheading:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+
+// font size
+$headingfontsize:35px;
+$heading1fontsize:33px;
+$heading2fontsize:29px;
+$textfontsize:20px;
+$text1fontsize:23px;
+
+// font weight
+$boldheading:bolder;
+
+
+body{
+    .middlepart{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        
+        background-image: url(../../images/background/background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .blackcontainer{
+            box-shadow:0 0 30px 1px $backgroundcolorop;
+            border-radius: 10px;
+            background-color: #000000b4;
+            width: 60%;
+            margin: auto;
+            display: block;
+            align-self: center;
+            font-family: $fontweb;
+            padding: 20px 40px 20px 40px;
+            .event{
+                display: flex;
+                align-items: center;
+                .poster{
+                    width: 50%;
+                    height: 400px;
+                    background-color: white;
+                }
+                .description{
+                    width: 50%;
+                    
+                    text-align: center;
+                    
+                    h3{
+                        color: $golden;
+                    }
+                    p{
+                        color: white;
+                        
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #FFC40C;
+                        border: 3px solid #0958BF;
+                        padding: 2px 20px 2px 20px;
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
