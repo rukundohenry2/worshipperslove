@@ -13,6 +13,17 @@ body .logo {
   top: 2%;
   left: 5%;
 }
+body .headingicons {
+  position: fixed;
+  right: 5%;
+  list-style: none;
+  padding: 7px;
+  top: 8%;
+  display: flex;
+}
+body .headingicons li a .headingicon {
+  width: 30px;
+}
 body .navbar {
   position: fixed;
   left: 30%;
@@ -40,9 +51,10 @@ body .navbar .menuitems .menuitem .active {
           text-decoration: NONE;
   font-family: "calibri light";
   font-size: 20px;
+  font-weight: bold;
 }
 body .navbar .menuitems .menuitem .active .menuicon {
-  height: 15px;
+  height: 18px;
 }
 body .navbar .menuitems .menuitem .nactive {
   color: #FFC40C;
@@ -50,6 +62,7 @@ body .navbar .menuitems .menuitem .nactive {
           text-decoration: NONE;
   font-size: 20px;
   font-family: "calibri light";
+  font-weight: bold;
 }
 body .navbar .menuitems .menuitem .nactive .menuicon {
   height: 15px;
@@ -64,7 +77,31 @@ body .navbar .menuitems .exception .dropactive {
           text-decoration: NONE;
   font-size: 20px;
   font-family: "calibri light";
+  font-weight: bold;
 }
 body .navbar .menuitems .exception .dropactive .menuicon {
   height: 15px;
+}
+body .navbar .menuitems .exception:hover .innermenu {
+  display: block;
+}
+body .navbar .menuitems .exception .innermenu {
+  display: none;
+  list-style: none;
+  border: solid 2px #0958BF;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 230px;
+  padding: 2px 15px 2px 15px;
+  background-color: #2C2D2E;
+}
+body .navbar .menuitems .exception .innermenu li a {
+  color: #FFC40C;
+  text-decoration: none;
+  font-weight: bold;
+}
+body .navbar .menuitems .exception .innermenu li hr {
+  margin: 0;
 }/*# sourceMappingURL=menubar.css.map */
