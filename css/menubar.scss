@@ -1,0 +1,139 @@
+// colors
+$primarycolor:#0958BF;
+$backgroundcolor: #2C2D2E;
+$backgroundcolorop: #2d2e2ff1;
+$blackbackground:#000000de;
+$blackbackgroundfooter:#0000009c;
+$golden:#FFC40C;
+
+// font family
+$fontmenu:'calibri light';
+$fontweb:'Century Gothic';
+$fontcursive:'Bradley Hand ITC';
+$fontheading:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+
+// font size
+$headingfontsize:35px;
+$heading1fontsize:33px;
+$heading2fontsize:29px;
+$textfontsize:20px;
+$text1fontsize:23px;
+
+// font weight
+$boldheading:bolder;
+
+body{
+    padding:0px;
+    margin: 0px;
+    background-image: url("../images/background/Web.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: $fontweb;
+    .logo{
+        width: 100px;
+        position: fixed;
+        top :2%;
+        left: 5%;
+    } 
+    .headingicons{
+        position: fixed;
+        right: 5%;
+        list-style: none;
+        padding:7px;
+        top: 8%;
+        display: flex;
+        li{
+            a{
+                .headingicon{
+                    width: 30px;
+                }
+            }
+        }
+    }
+    
+    .navbar{
+        position: fixed;
+        left: 30%;
+        padding:7px;
+        top: 8%;
+        border-radius: 10px;
+        box-shadow:0 0 30px 5px $backgroundcolorop;
+        
+        .menuitems{
+            list-style: none;
+            display: flex;
+            margin: 5px;
+            padding:3px;
+            background-color: $backgroundcolor;
+            border-radius: 10px;
+            border:solid 2px $primarycolor;
+            .menuitem{
+                padding-left: 5px;
+                padding-right: 5px;
+                .active{
+                    color:white;
+                    text-decoration: NONE;
+                    font-family: $fontmenu;
+                    font-size: $textfontsize;
+                    font-weight:bold;
+                    .menuicon{
+                        height:18px;
+                    }
+                }
+                .nactive{
+                    color:$golden;
+                    text-decoration: NONE;
+                    font-size: $textfontsize;
+                    font-family: $fontmenu;
+                    font-weight: bold;
+                    .menuicon{
+                        height:15px;
+                    }
+                } 
+            }
+            .exception{
+                padding-left: 5px;
+                padding-right: 5px;
+                .dropactive{
+                    color:$golden;
+                    text-decoration: NONE;
+                    font-size: $textfontsize;
+                    font-family: $fontmenu;
+                    font-weight: bold;
+                    .menuicon{
+                        height:15px;
+                    }  
+                }
+                // the &:hover is the parent selector
+                &:hover{
+                    .innermenu{
+                        display: block;
+                    }
+                }
+                .innermenu{
+                    display: none;
+                    list-style: none;
+                    border:solid 2px $primarycolor;
+                    border-radius: 10px;
+                    position:absolute;
+                    top: 50px;
+                    right:10px ;
+                    width: 230px;
+                    padding: 2px 15px 2px 15px;
+                    background-color: $backgroundcolor;
+                    li{
+                        a{
+                            color: $golden;
+                            text-decoration: none;
+                            font-weight: bold;
+                        }
+                        hr{
+                            margin:0;
+                        }
+                    }  
+                }  
+            }
+        }
+    } 
+}

@@ -1,0 +1,197 @@
+// colors
+$primarycolor:#0958BF;
+$backgroundcolor: #2C2D2E;
+$backgroundcolorop: #2d2e2ff1;
+$blackbackground:#000000de;
+$blackbackgroundfooter:#0000009c;
+$golden:#FFC40C;
+
+// font family
+$fontmenu:'calibri light';
+$fontweb:'Century Gothic';
+$fontcursive:'Bradley Hand ITC';
+$fontheading:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+
+// font size
+$headingfontsize:35px;
+$heading1fontsize:33px;
+$heading2fontsize:29px;
+$textfontsize:20px;
+$text1fontsize:23px;
+
+// font weight
+$boldheading:bolder;
+
+
+body{
+    .middlepart{
+        position: relative;
+        top: 300px;
+        left: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        
+        
+        
+        background-image: url(/images/background/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .blackcontainer{
+            box-shadow:0 0 30px 1px $backgroundcolorop;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.801);
+            width: 60%;
+            margin: auto;
+            display: block;
+            align-self: center;
+            font-family: $fontweb;
+            padding: 20px 40px 20px 40px;
+            
+            
+            .bio{
+                display: flex;
+                
+                
+                .apostle{
+                    // apostles image in his bio
+                    border-radius: 5px;
+                    width: 30%;
+                }
+                .message{
+                    text-align: justify;
+                    line-height: 30px;
+                    padding: 10px;
+                    font-size: $textfontsize;
+
+                    font-family: $fontweb;
+                    color: white;
+                    .readmore{
+                        color: $golden;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .events{
+                text-align: center;
+                color: $golden;
+                .heading{
+                    color: $golden;
+                    font-size: $headingfontsize;
+                    font-weight: $boldheading;   
+                }
+                .event{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                    border: white 1px solid;
+                    .poster{
+                        width: 50%;
+                        height: 500px;
+                        
+                    }
+                    .description{
+                        text-align: center;
+                        line-height: 30px;
+                        width: 50%;
+                        font-size: 18px;
+                        
+                        .rsvpbutton{
+                            text-decoration: none;
+                            color: $golden;
+                            border: 2px solid $primarycolor;
+                            padding: 2px 20px 2px 20px;
+                            border-radius: 30px; 
+
+                        }
+                    }
+                }
+            }
+            .preachingvid{
+                margin-top: 30px;
+                video{
+                    width: 100%;
+                    height: 400px;
+                    background-color: whitesmoke;
+                }
+            }
+        }
+        .blackcontainer2{
+            box-shadow:0 0 30px 1px $backgroundcolorop;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.801);
+            width: 60%;
+            align-self: center;
+            font-family: $fontweb;
+            padding: 20px 40px 20px 40px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+            .givinghand{
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 50px;
+                }
+            }
+            .partnershipverse{
+                margin-top: 10px;
+                color: white;
+                font-size: 20px;
+                width: 30%;
+                text-align: justify;
+            }
+            .partnershipscripture{
+                color: $golden;
+                font-size: $textfontsize;
+                font-family: $fontweb;
+                
+            }
+            .partnershipbutton{
+                text-decoration: none;
+                color: #FFC40C;
+                border: 2px solid #0958BF;
+                padding: 2px 20px 2px 20px;
+                border-radius: 30px;
+                font-size: $textfontsize;
+                font-weight: bold;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .container{
+                margin-bottom: 30px;
+                .image-gallery{
+                    display: flex;
+                    
+                    gap: 10px;
+                    .column{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .image-item{
+                            img{
+                                width: 100%;
+                                border-radius: 5px;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+            .more-photos{
+                text-decoration: none;
+                color: #FFC40C;
+                border: 2px solid #0958BF;
+                padding: 2px 20px 2px 20px;
+                border-radius: 30px;
+                font-size: $textfontsize;
+            }
+        }
+    }
+}
