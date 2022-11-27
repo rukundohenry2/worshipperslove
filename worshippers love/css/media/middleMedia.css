@@ -10,126 +10,93 @@ body .middlepart {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .middlepart .blackcontainer {
-  -webkit-box-shadow: 0 0 30px 1px #0000009c;
-          box-shadow: 0 0 30px 1px #0000009c;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.6117647059);
   border-radius: 10px;
-  background-color: #000000cc;
+  background-color: rgba(0, 0, 0, 0.8);
   width: 70%;
   margin: auto;
   display: block;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   font-family: "Century Gothic";
   padding: 20px 0px 20px 0px;
 }
-
 body .middlepart .blackcontainer h1 {
   color: #FFC40C;
   margin-left: 20px;
 }
-
 body .middlepart .blackcontainer .gallery {
-  -webkit-box-shadow: 0 0 30px 1px #2d2e2ff1;
-          box-shadow: 0 0 30px 1px #2d2e2ff1;
+  box-shadow: 0 0 30px 1px rgba(45, 46, 47, 0.9450980392);
   border-radius: 10px;
-  background-color: #000000cc;
-  display: -ms-grid;
+  background-color: rgba(0, 0, 0, 0.8);
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription {
   margin: 0px 20px 0px 20px;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription h2 {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription p {
   color: white;
   text-align: justify;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription .photonumber {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery .imageslider img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-
 body .middlepart .blackcontainer .gallery {
-  -webkit-box-shadow: 0 0 30px 1px #2d2e2ff1;
-          box-shadow: 0 0 30px 1px #2d2e2ff1;
+  box-shadow: 0 0 30px 1px rgba(45, 46, 47, 0.9450980392);
   border-radius: 10px;
-  background-color: #000000cc;
-  display: -ms-grid;
+  background-color: rgba(0, 0, 0, 0.8);
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription {
   margin: 0px 20px 0px 20px;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription h2 {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription p {
   color: white;
   text-align: justify;
 }
-
 body .middlepart .blackcontainer .gallery .collectiondescription .photonumber {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery .imageslider img {
   width: 100%;
   height: 100%;
   border-radius: 0px 10px 10px 0px;
 }
-
 body .middlepart .blackcontainer .gallery1 {
-  -webkit-box-shadow: 0 0 30px 1px #2d2e2ff1;
-          box-shadow: 0 0 30px 1px #2d2e2ff1;
+  box-shadow: 0 0 30px 1px rgba(45, 46, 47, 0.9450980392);
   border-radius: 10px;
-  background-color: #000000cc;
-  display: -ms-grid;
+  background-color: rgba(0, 0, 0, 0.8);
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
-
 body .middlepart .blackcontainer .gallery1 .collectiondescription {
   margin: 0px 20px 0px 20px;
 }
-
 body .middlepart .blackcontainer .gallery1 .collectiondescription h2 {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery1 .collectiondescription p {
   color: white;
   text-align: justify;
 }
-
 body .middlepart .blackcontainer .gallery1 .collectiondescription .photonumber {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .gallery1 .imageslider img {
   width: 100%;
   height: 100%;
   border-radius: 10px 0px 0px 10px;
-}
-/*# sourceMappingURL=middleMedia.css.map */
+}/*# sourceMappingURL=middleMedia.css.map */

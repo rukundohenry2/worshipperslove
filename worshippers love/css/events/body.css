@@ -10,55 +10,40 @@ body .middlepart {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .middlepart .blackcontainer {
-  -webkit-box-shadow: 0 0 30px 1px #2d2e2ff1;
-          box-shadow: 0 0 30px 1px #2d2e2ff1;
+  box-shadow: 0 0 30px 1px rgba(45, 46, 47, 0.9450980392);
   border-radius: 10px;
-  background-color: #000000b4;
+  background-color: rgba(0, 0, 0, 0.7058823529);
   width: 60%;
   margin: auto;
   display: block;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   font-family: "Century Gothic";
   padding: 20px 40px 20px 40px;
 }
-
 body .middlepart .blackcontainer .event {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 body .middlepart .blackcontainer .event .poster {
   width: 50%;
   height: 400px;
   background-color: white;
 }
-
 body .middlepart .blackcontainer .event .description {
   width: 50%;
   text-align: center;
 }
-
 body .middlepart .blackcontainer .event .description h3 {
   color: #FFC40C;
 }
-
 body .middlepart .blackcontainer .event .description p {
   color: white;
 }
-
 body .middlepart .blackcontainer .event .description a {
   text-decoration: none;
   color: #FFC40C;
   border: 3px solid #0958BF;
   padding: 2px 20px 2px 20px;
   border-radius: 30px;
-}
-/*# sourceMappingURL=body.css.map */
+}/*# sourceMappingURL=body.css.map */

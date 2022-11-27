@@ -9,7 +9,6 @@ body .topheading {
   left: 43%;
   display: inline;
 }
-
 body .middlepart {
   position: relative;
   top: 300px;
@@ -22,40 +21,31 @@ body .middlepart {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 body .middlepart .blackcontainer {
-  -webkit-box-shadow: 0 0 30px 1px #2d2e2ff1;
-          box-shadow: 0 0 30px 1px #2d2e2ff1;
+  box-shadow: 0 0 30px 1px rgba(45, 46, 47, 0.9450980392);
   border-radius: 10px;
-  background-color: #000000b7;
+  background-color: rgba(0, 0, 0, 0.7176470588);
   width: 60%;
   margin: auto;
   display: block;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   font-family: "Century Gothic";
   padding: 20px 40px 20px 40px;
   color: white;
   text-align: justify;
   font-family: "Century Gothic";
 }
-
 body .middlepart .blackcontainer h1 {
   color: #FFC40C;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
-
 body .middlepart .blackcontainer h3 {
   color: #FFC40C;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
-
 body .middlepart .blackcontainer .verse {
   font-size: 20px;
 }
-
 body .middlepart .blackcontainer .verse span {
   color: #FFC40C;
-}
-/*# sourceMappingURL=middlepart.css.map */
+}/*# sourceMappingURL=middlepart.css.map */

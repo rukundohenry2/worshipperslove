@@ -8,24 +8,18 @@ body .middlepart {
   display: block;
   background-color: white;
 }
-
 body .middlepart .blackcontainer {
-  -webkit-box-shadow: 0 0 30px 1px #0000009c;
-          box-shadow: 0 0 30px 1px #0000009c;
+  box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.6117647059);
   border-radius: 10px;
-  background-color: #000000cc;
+  background-color: rgba(0, 0, 0, 0.8);
   width: 60%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   font-family: "Century Gothic";
   padding: 40px;
   font-size: 20px;
 }
-
 body .middlepart .blackcontainer .service {
   width: 50%;
   padding: 40px;
@@ -33,35 +27,27 @@ body .middlepart .blackcontainer .service {
   border-radius: 5px;
   height: 400px;
 }
-
 body .middlepart .blackcontainer .service h2 {
   text-transform: uppercase;
   color: white;
 }
-
 body .middlepart .blackcontainer .service p {
   text-align: justify;
   color: white;
 }
-
 body .middlepart .blackcontainer .locationdetails {
   padding: 40px;
 }
-
 body .middlepart .blackcontainer .locationdetails h2 {
   color: #FFC40C;
   text-transform: uppercase;
 }
-
 body .middlepart .blackcontainer .locationdetails p {
   color: white;
 }
-
 body .middlepart .maplocation {
   margin-top: 40px;
 }
-
 body .middlepart .maplocation .mapouter {
   margin: auto;
-}
-/*# sourceMappingURL=middlevisit.css.map */
+}/*# sourceMappingURL=middlevisit.css.map */
